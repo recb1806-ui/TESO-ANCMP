@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+  </defs>
+  <!-- Fondo circular / escudo -->
+  <rect width="512" height="512" rx="96" fill="url(#bgGrad)" />
+  <rect x="18" y="18" width="476" height="476" rx="80" fill="none" stroke="url(#goldGrad)" stroke-width="10" />
+  <rect x="34" y="34" width="444" height="444" rx="68" fill="none" stroke="#F59E0B" stroke-width="2" stroke-opacity="0.4" />
+  
+  <!-- Balanza y Escudo estilizado de Control Funcional -->
+  <path d="M256 76 L290 130 L222 130 Z" fill="url(#goldGrad)" />
+  <rect x="248" y="125" width="16" height="145" fill="url(#goldGrad)" />
+  <path d="M136 160 H376" stroke="url(#goldGrad)" stroke-width="12" stroke-linecap="round" />
+  <!-- Platillo izquierdo -->
+  <path d="M156 160 L120 230 H192 Z" fill="none" stroke="#F59E0B" stroke-width="6" />
+  <path d="M112 230 Q156 260 200 230 Z" fill="url(#goldGrad)" />
+  <!-- Platillo derecho -->
+  <path d="M356 160 L320 230 H392 Z" fill="none" stroke="#F59E0B" stroke-width="6" />
+  <path d="M312 230 Q356 260 400 230 Z" fill="url(#goldGrad)" />
+  <!-- Base -->
+  <rect x="196" y="266" width="120" height="16" rx="8" fill="url(#goldGrad)" />
+  
+  <!-- Texto ANC -->
+  <text x="256" y="358" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="900" fill="#F8FAFC" text-anchor="middle" letter-spacing="4">ANC</text>
+  <text x="256" y="402" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#F59E0B" text-anchor="middle" letter-spacing="2">MINISTERIO PÚBLICO</text>
+  <text x="256" y="436" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#94A3B8" text-anchor="middle" letter-spacing="1.5">UE 012 • CONTROL FUNCIONAL</text>
+</svg>
